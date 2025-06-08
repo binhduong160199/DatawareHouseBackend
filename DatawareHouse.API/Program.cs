@@ -1,4 +1,4 @@
-using DatawareHouse.API.Data;
+using DataWarehouse.API.Data;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
 
@@ -16,7 +16,7 @@ Console.WriteLine($"Running in {builder.Environment.EnvironmentName} environment
 
 // ✅ Add DB context (PostgreSQL)
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<AppDbContext>(options =>
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(connectionString));
 
 // ✅ Enable enum as string for JSON output

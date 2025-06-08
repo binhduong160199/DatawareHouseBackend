@@ -1,11 +1,11 @@
-using DatawareHouse.Models.Entities;
+using DataWarehouse.Models.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace DatawareHouse.API.Data
+namespace DataWarehouse.API.Data
 {
-    public class AppDbContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) {}
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) {}
 
         public DbSet<WarehouseRack> WarehouseRacks => Set<WarehouseRack>();
         public DbSet<RackPosition> RackPositions => Set<RackPosition>();
