@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace DatawareHouse.API.Migrations
+namespace DataWarehouse.API.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration
