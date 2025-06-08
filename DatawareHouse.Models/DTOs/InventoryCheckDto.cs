@@ -1,6 +1,6 @@
-using DatawareHouse.Models.Enums;
+using DataWarehouse.Models.Enums;
 
-namespace DatawareHouse.Models.DTOs
+namespace DataWarehouse.Models.DTOs
 {
     public class InventoryCheckDto
     {

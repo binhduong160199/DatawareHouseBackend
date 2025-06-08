@@ -1,4 +1,4 @@
-namespace DatawareHouse.Models.Enums
+namespace DataWarehouse.Models.Enums
 {
     public enum SuggestionAlgorithm
     {
