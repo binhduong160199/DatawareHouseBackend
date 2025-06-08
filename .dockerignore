@@ -1,0 +1,9 @@
+bin/
+obj/
+.vscode/
+*.user
+*.csproj.user
+*.suo
+*.db
+*.DS_Store
+node_modules/
