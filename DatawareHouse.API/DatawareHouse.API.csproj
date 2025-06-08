@@ -4,6 +4,8 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>DataWarehouse.API</RootNamespace>
+    <AssemblyName>DataWarehouse.API</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DatawareHouse.Models\DatawareHouse.Models.csproj" />
+    <ProjectReference Include="..\DataWarehouse.Models\DataWarehouse.Models.csproj" />
   </ItemGroup>
 
 </Project>

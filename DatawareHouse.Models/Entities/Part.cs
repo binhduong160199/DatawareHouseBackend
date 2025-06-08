@@ -1,6 +1,6 @@
-using DatawareHouse.Models.Enums;
+using DataWarehouse.Models.Enums;
 
-namespace DatawareHouse.Models.Entities
+namespace DataWarehouse.Models.Entities
 {
     public class Part
     {

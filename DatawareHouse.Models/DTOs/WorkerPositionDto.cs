@@ -1,4 +1,4 @@
-namespace DatawareHouse.Models.DTOs
+namespace DataWarehouse.Models.DTOs
 {
     public class WorkerPositionDto
     {

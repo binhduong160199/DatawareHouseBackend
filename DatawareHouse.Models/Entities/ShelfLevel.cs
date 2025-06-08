@@ -1,4 +1,4 @@
-namespace DatawareHouse.Models.Entities
+namespace DataWarehouse.Models.Entities
 {
     public class ShelfLevel
     {
